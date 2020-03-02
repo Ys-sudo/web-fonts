@@ -1,27 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<html ng-app>
+    <head>
     
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<style>
+      
+      body{
+        background-color: black;
+        color: white;
+        font-family:courier;
+        padding:5px;
+      }
+  #fontone{
+    
+  }
+  #fontoneb{
+    
+  }
+      
+      
+      </style>
+      
+      
+      
+      
+    </head>
+    <body>
+        <h1>
+          Font previewer
+      </h1>
+        <div id="inputs">
+        
+        <label>Preview text in different fonts:</label>
+        <input type="text" ng-model="number" onfocusout="spaces()"  maxlength="100" id="number2" placeholder="Sample text">
+        <br />
+        <br />
+        <label>Compare:</label>
+        <input onfocusout="names()" type="text" id="name2" ng-model="name" maxlength="25" placeholder="Compare two texts">
+        
+        
+       <br />
+       <br />
+        <hr />
+       
+       
+      </div>
+      
+        
+       <h6>
+         font text one
+      </h6>
+        <h2 id="fontone">{{number}}</h2>
+      <h6>
+         font two
+      </h6>
+        <h2 id="fontoneb">{{name}}</h2>
+        
+        <script>
+        
+        </script>
+
+        
+
+        
+
+
+    </body>
 </html>
