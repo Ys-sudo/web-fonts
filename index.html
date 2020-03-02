@@ -66,7 +66,7 @@ font-family: 'Bungee Shade', ;
   h1{
     font-family: 'Pacifico';
   }
-  input{
+  inputa{
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
@@ -74,6 +74,34 @@ font-family: 'Bungee Shade', ;
     color: rgb(10,10,10);
     font-family: 'Abril Fatface';
     border: 0px;
+    position: fixed;
+    width: 40%;
+    left:1%:
+    
+    
+  }
+  inputb{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    color: rgb(10,10,10);
+    font-family: 'Abril Fatface';
+    border: 0px;
+    position: fixed;
+    width: 40%;
+    left:1%:
+    
+    
+  }
+  button{
+    background-color: black;
+    color: white;
+    font-family: 'Abril Fatface';
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
     
   }
   #fontone{
@@ -255,17 +283,19 @@ font-family: 'Bungee Shade', ;
       
     </head>
     <body>
+      <input id="input" align="left" type="text" ng-model="number" onfocusout="spaces()"  maxlength="100" id="number2" placeholder="Sample text">
+              
+        <input id="inputb" align="left" onfocusout="names()" type="text" id="name2" ng-model="name" maxlength="25" placeholder="Compare two texts">
         <h1>
          Web Font previewer
       </h1>
+      <button onclick="changeBackground()" id="darklight">
+        Dark Mode
+      </button>
         <div id="inputs">
         
         <label align="left">Preview text in different fonts:</label><br>
-        <input align="left" type="text" ng-model="number" onfocusout="spaces()"  maxlength="100" id="number2" placeholder="Sample text">
-        <br />
-        <br />
-        <label align="left">Compare:</label><br>
-        <input align="left" onfocusout="names()" type="text" id="name2" ng-model="name" maxlength="25" placeholder="Compare two texts">
+        
         
         
        <br />
@@ -495,11 +525,24 @@ font-family: 'Bungee Shade', ;
       
       <script>
         
-        </script>
+       let dark = false;
 
-        
+        function changeBackground() {
+          
+          if(dark==false){
+   document.body.style.background = "rgb(5,5,5)";
+            document.body.style.color = "whitesmoke";
+            dark = true;
+            return dark;
+          } else if(dark==true) {
+            document.body.style.background = "whitesmoke";
+            document.body.style.color = "rgb(30,30,03)";
+            dark = false;
+            return dark;
+          }
+}
 
-        
+         </script>
 
 
     </body>
