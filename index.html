@@ -1,4 +1,52 @@
 <!DOCTYPE HTML>
+
+<!--
+Embed Font
+To embed your selected fonts into a webpage, copy this code into the <head> of your HTML document.
+
+STANDARD @IMPORT
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amita|Anonymous+Pro|Bungee+Shade|Carter+One|Caveat|Comfortaa|Dancing+Script|Fredoka+One|GFS+Didot|Gothic+A1|IBM+Plex+Mono|Kaushan+Script|Knewave|Lobster+Two|Lora|Luckiest+Guy|Modak|Oleo+Script|Oranienbaum|Pacifico|Permanent+Marker|Petit+Formal+Script|Poiret+One|Poller+One|Press+Start+2P|Righteous|Sacramento|Satisfy|Sigmar+One|Ultra|Unica+One|Wallpoet&display=swap" rel="stylesheet">
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+font-family: 'Lora', ;
+font-family: 'Dancing Script', ;
+font-family: 'Pacifico', ;
+font-family: 'Abril Fatface', ;
+font-family: 'Comfortaa', ;
+font-family: 'Righteous', ;
+font-family: 'Fredoka One', ;
+font-family: 'Permanent Marker', ;
+font-family: 'Caveat', ;
+font-family: 'Satisfy', ;
+font-family: 'Kaushan Script', ;
+font-family: 'Lobster Two', ;
+font-family: 'Sacramento', ;
+font-family: 'Poiret One', ;
+font-family: 'Ultra', ;
+font-family: 'IBM Plex Mono', ;
+font-family: 'Press Start 2P', ;
+font-family: 'Sigmar One', ;
+font-family: 'Luckiest Guy', ;
+font-family: 'Unica One', ;
+font-family: 'Oleo Script', ;
+font-family: 'Gothic A1', ;
+font-family: 'Carter One', ;
+font-family: 'Modak', ;
+font-family: 'Oranienbaum', ;
+font-family: 'Anonymous Pro', ;
+font-family: 'Petit Formal Script', ;
+font-family: 'Knewave', ;
+font-family: 'Poller One', ;
+font-family: 'GFS Didot', ;
+font-family: 'Amita', ;
+font-family: 'Wallpoet', ;
+font-family: 'Bungee Shade', ;
+
+
+-->
+
+
 <html ng-app>
     <head>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amita|Anonymous+Pro|Bungee+Shade|Carter+One|Caveat|Comfortaa|Dancing+Script|Fredoka+One|GFS+Didot|Gothic+A1|IBM+Plex+Mono|Kaushan+Script|Knewave|Lobster+Two|Lora|Luckiest+Guy|Modak|Oleo+Script|Oranienbaum|Pacifico|Permanent+Marker|Petit+Formal+Script|Poiret+One|Poller+One|Press+Start+2P|Righteous|Sacramento|Satisfy|Sigmar+One|Ultra|Unica+One|Wallpoet&display=swap" rel="stylesheet">
@@ -15,6 +63,19 @@
         font-family:courier;
         padding:5px;
       }
+  h1{
+    font-family: 'Pacifico';
+  }
+  input{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    color: rgb(10,10,10);
+    font-family: 'Abril Fatface';
+    border: 0px;
+    
+  }
   #fontone{
     font-family: 'Lora' ;
 
@@ -199,12 +260,12 @@
       </h1>
         <div id="inputs">
         
-        <label>Preview text in different fonts:</label>
-        <input type="text" ng-model="number" onfocusout="spaces()"  maxlength="100" id="number2" placeholder="Sample text">
+        <label align="left">Preview text in different fonts:</label><br>
+        <input align="left" type="text" ng-model="number" onfocusout="spaces()"  maxlength="100" id="number2" placeholder="Sample text">
         <br />
         <br />
-        <label>Compare:</label>
-        <input onfocusout="names()" type="text" id="name2" ng-model="name" maxlength="25" placeholder="Compare two texts">
+        <label align="left">Compare:</label><br>
+        <input align="left" onfocusout="names()" type="text" id="name2" ng-model="name" maxlength="25" placeholder="Compare two texts">
         
         
        <br />
