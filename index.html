@@ -66,7 +66,7 @@ font-family: 'Bungee Shade', ;
   h1{
     font-family: 'Pacifico';
   }
-  inputa{
+  #prevone{
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
@@ -76,11 +76,12 @@ font-family: 'Bungee Shade', ;
     border: 0px;
     position: fixed;
     width: 40%;
-    left:1%:
+    left:50%;
+    top:2%;
     
     
   }
-  inputb{
+  #prevtwo{
     border-radius: 20px;
     padding: 10px;
     margin: 10px;
@@ -90,7 +91,8 @@ font-family: 'Bungee Shade', ;
     border: 0px;
     position: fixed;
     width: 40%;
-    left:1%:
+    left:50%;
+    top:10%;
     
     
   }
@@ -100,8 +102,9 @@ font-family: 'Bungee Shade', ;
     font-family: 'Abril Fatface';
     padding: 10px;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 20px;
     
   }
   #fontone{
@@ -283,23 +286,20 @@ font-family: 'Bungee Shade', ;
       
     </head>
     <body>
-      <input id="input" align="left" type="text" ng-model="number" onfocusout="spaces()"  maxlength="100" id="number2" placeholder="Sample text">
+      <input id="prevone" align="left" type="text" ng-model="number" onfocusout="spaces()"  maxlength="100"  placeholder="Sample text">
               
-        <input id="inputb" align="left" onfocusout="names()" type="text" id="name2" ng-model="name" maxlength="25" placeholder="Compare two texts">
+        <input id="prevtwo"  align="left" onfocusout="names()" type="text" ng-model="name" maxlength="25" placeholder="Compare two texts">
         <h1>
-         Web Font previewer
+         &lg;Web Fonts
       </h1>
       <button onclick="changeBackground()" id="darklight">
         Dark Mode
       </button>
         <div id="inputs">
         
-        <label align="left">Preview text in different fonts:</label><br>
+        <label style="font-size: 10px;font-family: 'Fredoka One'" align="left">Preview text in different fonts:</label><br>
         
-        
-        
-       <br />
-       <br />
+        <br>
         <hr />
        
        
