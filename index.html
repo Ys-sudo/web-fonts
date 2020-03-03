@@ -484,14 +484,24 @@ font-family: 'Bungee Shade' ;
     font-family: 'Abril Fatface';
     
   }
-  #myInput{
+  #myCodeInput{
     position: fixed;
-    color: darkgray;
+    top: 1%;
+    color: rgb(20,20,20);
     background-color:lightgray;
     border: 0px solid white;
     border-radius: 20px;
     padding: 5px;
+    font-family: 'Abril Fatface';
+    width: 40%;
     
+  }
+  #entry{
+    position: fixed;
+    color: black;
+    font-size: 10px;
+    right: 3%;
+    top: -5px;
   }
 
 
@@ -512,8 +522,10 @@ font-family: 'Bungee Shade' ;
       <div id="myTooltip">
         Invisible
       </div>
-      
-      <input type="text" disabled value="0" id="myInput">
+      <h4 id="entry">
+        &middot;enter some text below
+      </h4>
+      <textarea type="text" disabled id="myCodeInput" rows="1" ></textarea>
       
       <h1>
          &lg;Web Fonts
@@ -1025,7 +1037,18 @@ font-family: 'Bungee Shade' ;
         
         
         
-        
+      let x = ["font-family: 'Dancing Script' ;","font-family: 'Lora';","font-family: 'Pacifico';",
+                "font-family: 'Abril Fatface';","font-family: 'Sigmar One' ;","font-family: 'Comfortaa' ;",
+                 "font-family: 'Righteous' ;","font-family: 'Fredoka One' ;","font-family: 'Caveat' ;",
+                 "font-family: 'Satisfy'","font-family: 'Kaushan Script' ;","font-family: 'Lobster Two' ;",
+                 "font-family: 'Sacramento' ;","font-family: 'Poiret One' ;","font-family: 'Ultra' ;",
+                 "font-family: 'IBM Plex Mono' ;","font-family: 'Press Start 2P' ;","font-family: 'Luckiest Guy' ;",
+                 "font-family: 'Unica One' ; ","font-family: 'Oleo Script' ;","font-family: 'Gothic A1' ;",
+                 "font-family: 'Carter One' ; ","font-family: 'Modak';","font-family: 'Oranienbaum' ;",
+                 "font-family: 'Anonymous Pro' ;","font-family: 'Petit Formal Script' ;","font-family: 'Knewave' ;",
+                 "font-family: 'Poller One' ;","font-family: 'GFS Didot'","font-family: 'Amita' ;","font-family: 'Wallpoet' ;",
+                 "font-family: 'Bungee Shade' ;","font-family: 'Permanent Marker' ;"  
+                ];
         
       
        let dark = false;
@@ -1059,32 +1082,15 @@ font-family: 'Bungee Shade' ;
         
         //copy the css 
         function copyCSS() {
+              
           
+        let copyText = document.getElementById("myCodeInput");
+        copyText.innerHTML = String(x[0]);
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
           
-           let x = ["font-family: 'Dancing Script' ;","font-family: 'Lora';","font-family: 'Pacifico';",
-                "font-family: 'Abril Fatface';","font-family: 'Sigmar One' ;","font-family: 'Comfortaa' ;",
-                 "font-family: 'Righteous' ;","font-family: 'Fredoka One' ;","font-family: 'Caveat' ;",
-                 "font-family: 'Satisfy'","font-family: 'Kaushan Script' ;","font-family: 'Lobster Two' ;",
-                 "font-family: 'Sacramento' ;","font-family: 'Poiret One' ;","font-family: 'Ultra' ;",
-                 "font-family: 'IBM Plex Mono' ;","font-family: 'Press Start 2P' ;","font-family: 'Luckiest Guy' ;",
-                 "font-family: 'Unica One' ; ","font-family: 'Oleo Script' ;","font-family: 'Gothic A1' ;",
-                 "font-family: 'Carter One' ; ","font-family: 'Modak';","font-family: 'Oranienbaum' ;",
-                 "font-family: 'Anonymous Pro' ;","font-family: 'Petit Formal Script' ;","font-family: 'Knewave' ;",
-                 "font-family: 'Poller One' ;","font-family: 'GFS Didot'","font-family: 'Amita' ;","font-family: 'Wallpoet' ;",
-                 "font-family: 'Bungee Shade' ;","font-family: 'Permanent Marker' ;"  
-                ];
-          //alert(x[0]);
-
-          
-          
-          
-        let copyText = document.getElementById("myInput");
-        copyText.value = x[0];
-        //copyText.select();
-        //copyText.setSelectionRange(0, 99999);
-        //document.execCommand("copy");
-          
-        //alert("Copied the text: " + copyText;
+        
  
 
         let tooltip = document.getElementById("myTooltip");
