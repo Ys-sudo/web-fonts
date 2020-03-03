@@ -131,21 +131,21 @@ font-family: 'Bungee Shade', ;
   }
 
   #fontone{
-    font-family: 'Lora' ;
+    font-family: 'Dancing Script' ;
 
   }
   #fontoneb{
 
-    font-family: 'Lora'  ;
+    font-family: 'Dancing Script' ;
 
   }
   #fonttwo{
-    font-family: 'Dancing Script' ;
+    font-family: 'Lora'  ;
 
 
   }
   #fonttwob{
-    font-family: 'Dancing Script';
+   font-family: 'Lora'  ;
 
 
   }
@@ -472,17 +472,19 @@ font-family: 'Bungee Shade' ;
       </style>
 
 
-
+<script>
+      
+      </script>
      
       
 
     </head>
     <body>
-      <div ng-controller="ExampleController">
-      <input id="prevone" align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder=""  >
+     
+        <input id="prevone" align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder=""  >
       
         <input id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="" >
-      </div>
+      
       
       <h1>
          &lg;Web Fonts
@@ -502,11 +504,11 @@ font-family: 'Bungee Shade' ;
 
 
        <h6>
-          font-family: 'Lora';  text a
+          font-family: 'Dancing Script' ;  text a
       </h6>
         <h2 id="fontone">a: {{number}}</h2>
       <h6>
-          font-family: 'Lora'; text b
+          font-family: 'Dancing Script' ; text b
       </h6>
         <h2 id="fontoneb"><strong>b: {{name}}</strong></h2>
 
@@ -516,11 +518,11 @@ font-family: 'Bungee Shade' ;
       <hr />
 
       <h6>
-         font-family: 'Dancing Script' ; text a
+         font-family: 'Lora'; text a
       </h6>
         <h2 id="fonttwo">a: {{number}}</h2>
       <h6>
-         font-family: 'Dancing Script' ; text b
+         font-family: 'Lora'; text b
       </h6>
         <h2 id="fonttwob">b: {{name}}</h2>
 
@@ -997,7 +999,7 @@ font-family: 'Bungee Shade' ;
    document.body.style.background = "rgb(5,5,5)";
             document.body.style.color = "whitesmoke";
             document.getElementById("darklight").style.background ="whitesmoke";
-            document.getElementById("darklight").style.color ="darkgray";
+            document.getElementById("darklight").style.color ="gray";
              document.getElementById("darklight").innerHTML ="Light Mode";
             dark = true;
             return dark;
@@ -1006,6 +1008,8 @@ font-family: 'Bungee Shade' ;
           document.getElementById("darklight").style.background ="rgb(20,20,20)";
             document.getElementById("darklight").style.color ="whitesmoke";
              document.getElementById("darklight").innerHTML ="Dark Mode";
+            
+          
 
 
             document.body.style.background = "whitesmoke";
