@@ -68,9 +68,13 @@
             document.getElementById("prevtwo").style.background="lightgray";
             document.getElementById("prevone").style.color="darkgray";
             document.getElementById("prevtwo").style.color="darkgray";
-
+            document.getElementById("myCodeInput").style.background="lightgray";
+            document.getElementById("myCodeInput").style.color="gray";
+            
+            
             document.body.style.background = "whitesmoke";
             document.body.style.color = "rgb(30,30,03)";
+            
             dark = false;
             return dark;
           }
