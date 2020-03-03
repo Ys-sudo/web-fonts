@@ -472,16 +472,14 @@ font-family: 'Bungee Shade' ;
       </style>
 
 
-<script>
-      
-      </script>
+
      
-      $scope.number="hello";
+     
 
     </head>
-    <body>
+    <body onload="content()">
      
-      <textarea id="prevone"  align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder="Hello Darling!" rows="1"  >Hello Darling</textarea>
+      <textarea id="prevone"  align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder="Hello Darling!" rows="1"  ></textarea>
       
       <textarea id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="how is it going?" ></textarea>
       
@@ -506,7 +504,7 @@ font-family: 'Bungee Shade' ;
        <h6>
           font-family: 'Dancing Script' ;  text a
       </h6>
-        <h2 id="fontone" ng-bind="number"></h2>
+      <h2 id="fontone">a: <span ng-bind="number"></span></h2>
       <h6>
           font-family: 'Dancing Script' ; text b
       </h6>
