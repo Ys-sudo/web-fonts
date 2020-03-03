@@ -514,15 +514,26 @@ font-family: 'Bungee Shade' ;
     right: 10%;
     top: 30%;
     border-radius: 20px;
+    font-family: 'Abril Fatface';
     font-size: 12px;
+  }
+  #popup:hover{
+    
+    color: white;
+    
   }
   #close{
     position: absolute;
-    
     right: 20px;
     top: 0px;
-    font-size: 20px;
+    font-size: 15px;
     
+  }
+  #close:hover{
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50px;
   }
       </style>
 
@@ -539,10 +550,12 @@ font-family: 'Bungee Shade' ;
       <textarea id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="how is it going ?" ></textarea>
       
       <div id="popup">
-        <p id="close">
+        <p id="close" onclick="closes()">
           X
         </p>
-        Welcome to Web Fonts! A one page website dedicated for choosing the right font for your theme!.
+        Welcome to Web Fonts! A one page website dedicated for choosing the right font for your website.<br> <br>
+        Compare texts by writing them into the boxes.
+        <br><br>Click on the CSS button to copy the property,<br><br> @import and head link coming soon...
         
       </div>
       
@@ -1086,7 +1099,9 @@ font-family: 'Bungee Shade' ;
               ];
         
       
-      
+      function closes(){
+           document.getElementById("popup").style.display ="none";
+      }
 
       
        let dark = false;
@@ -1354,6 +1369,30 @@ font-family: 'Bungee Shade' ;
         tooltip.style.display = 'block';
 
         tooltip.innerHTML ="copied!<br><br>" + x[9];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+          
+        
+          
+        }
+        function copyCSS10() {
+              
+          
+        let copyText = document.getElementById("myCodeInput");
+        copyText.value = x[10];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + x[10];
         setTimeout(function(){tooltip.style.display="none";},3000);  
           
           
@@ -1650,7 +1689,7 @@ font-family: 'Bungee Shade' ;
         
           
         }
-        function copyCSS() {
+        function copyCSS23() {
               
           
         let copyText = document.getElementById("myCodeInput");
