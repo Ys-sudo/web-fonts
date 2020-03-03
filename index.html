@@ -473,13 +473,18 @@ font-family: 'Bungee Shade' ;
 
 
 
+     
+      
 
     </head>
     <body>
-      <input id="prevone" align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder="Sample text" value="JohnOknovaluewhy?" >
-
-        <input id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="Compare two texts" value="John" >
-        <h1>
+      <div ng-controller="ExampleController">
+      <input id="prevone" align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder=""  >
+      
+        <input id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="" >
+      </div>
+      
+      <h1>
          &lg;Web Fonts
       </h1>
       <button onclick="changeBackground()" id="darklight">
@@ -487,7 +492,7 @@ font-family: 'Bungee Shade' ;
       </button>
         <div id="inputs">
 
-        <label style="font-size: 10px;font-family: 'Fredoka One'" align="left">Preview text in different fonts:</label><br>
+        <label style="font-size: 10px;font-family: 'Fredoka One'" align="left">Preview, pick and compare<br> text in different fonts:</label><br>
 
         <br>
         <hr />
@@ -983,7 +988,7 @@ font-family: 'Bungee Shade' ;
 
 
       <script>
-
+      
        let dark = false;
 
         function changeBackground() {
