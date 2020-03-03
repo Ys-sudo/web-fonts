@@ -7,7 +7,7 @@
       }
   h1{
     font-family: 'Pacifico';
-    color: #373fff;
+    /*color: #373fff;*/
   }
   #prevone{
     border-radius: 20px;
@@ -72,6 +72,79 @@
     border-radius: 20px;
 
   }
+
+#myTooltip{
+    color: whitesmoke;
+    background-color: rgba(10,10,10,0.95);
+    position: fixed;
+    left: 20%;
+    right: 20%;
+   
+    top:40%;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    font-size: 10px;
+    border-radius: 30px;
+    font-family: 'Abril Fatface';
+    
+  }
+  #myCodeInput{
+    position: fixed;
+    top: 1%;
+    color: rgb(20,20,20);
+    background-color:lightgray;
+    border: 0px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: 'Abril Fatface';
+    width: 40%;
+    
+  }
+  #entry{
+    position: fixed;
+    color: black;
+    font-size: 10px;
+    right: 3%;
+    top: -5px;
+  }
+
+  #popup{
+    position: fixed;
+    background: rgba(50,50,50,0.9);
+    color: lightgray;
+    padding: 30px;
+    width: 50%;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    border-radius: 20px;
+    font-family: 'Abril Fatface';
+    font-size: 12px;
+  }
+  #popup:hover{
+    
+    color: white;
+    
+  }
+  #close{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 15px;
+    
+  }
+  #close:hover{
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50px;
+  }
+
+
+/* FONTS SECTION */
+
+
 
   #fontone{
     font-family: 'Dancing Script' ;
@@ -411,70 +484,4 @@ font-family: 'Bungee Shade' ;
 
   }
   
-  #myTooltip{
-    color: whitesmoke;
-    background-color: rgba(10,10,10,0.95);
-    position: fixed;
-    left: 20%;
-    right: 20%;
-   
-    top:40%;
-    padding: 20px;
-    text-align: center;
-    display: none;
-    font-size: 10px;
-    border-radius: 30px;
-    font-family: 'Abril Fatface';
-    
-  }
-  #myCodeInput{
-    position: fixed;
-    top: 1%;
-    color: rgb(20,20,20);
-    background-color:lightgray;
-    border: 0px solid white;
-    border-radius: 20px;
-    padding: 5px;
-    font-family: 'Abril Fatface';
-    width: 40%;
-    
-  }
-  #entry{
-    position: fixed;
-    color: black;
-    font-size: 10px;
-    right: 3%;
-    top: -5px;
-  }
-
-  #popup{
-    position: fixed;
-    background: rgba(50,50,50,0.9);
-    color: lightgray;
-    padding: 30px;
-    width: 50%;
-    left: 10%;
-    right: 10%;
-    top: 30%;
-    border-radius: 20px;
-    font-family: 'Abril Fatface';
-    font-size: 12px;
-  }
-  #popup:hover{
-    
-    color: white;
-    
-  }
-  #close{
-    position: absolute;
-    right: 20px;
-    top: 0px;
-    font-size: 15px;
-    
-  }
-  #close:hover{
-    color: black;
-    background-color: white;
-    padding: 3px;
-    border-radius: 50px;
-  }
+  

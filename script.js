@@ -44,6 +44,15 @@
             
             document.getElementById("entry").style.color="white";
             
+            document.getElementById("prevone").style.background="rgb(30,30,30)";
+            document.getElementById("prevtwo").style.background="rgb(30,30,30)";
+            document.getElementById("prevone").style.color="white";
+            document.getElementById("prevtwo").style.color="white";
+            document.getElementById("myCodeInput").style.background="rgb(30,30,30)";
+            document.getElementById("myCodeInput").style.color="white";
+            
+            
+
             
             dark = true;
             return dark;
@@ -54,7 +63,11 @@
              document.getElementById("darklight").innerHTML ="Dark Mode";
             
           document.getElementById("entry").style.color="darkgray";
-
+            
+            document.getElementById("prevone").style.background="lightgray";
+            document.getElementById("prevtwo").style.background="lightgray";
+            document.getElementById("prevone").style.color="darkgray";
+            document.getElementById("prevtwo").style.color="darkgray";
 
             document.body.style.background = "whitesmoke";
             document.body.style.color = "rgb(30,30,03)";
