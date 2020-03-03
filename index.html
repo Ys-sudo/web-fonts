@@ -504,7 +504,26 @@ font-family: 'Bungee Shade' ;
     top: -5px;
   }
 
-
+  #popup{
+    position: fixed;
+    background: rgba(50,50,50,0.9);
+    color: lightgray;
+    padding: 30px;
+    width: 50%;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  #close{
+    position: absolute;
+    
+    right: 20px;
+    top: 0px;
+    font-size: 20px;
+    
+  }
       </style>
 
 
@@ -513,11 +532,20 @@ font-family: 'Bungee Shade' ;
      
 
     </head>
-    <body onload="content()">
+    <body onload="popup()">
      
       <textarea id="prevone"  align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder="Hello Darling !" rows="1"  ></textarea>
       
       <textarea id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="how is it going ?" ></textarea>
+      
+      <div id="popup">
+        <p id="close">
+          X
+        </p>
+        Welcome to Web Fonts! A one page website dedicated for choosing the right font for your theme!.
+        
+      </div>
+      
       
       <div id="myTooltip">
         Invisible
@@ -844,7 +872,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttoneb">b: {{name}}</h2>
 
-        <button onclick="copyCSS1()" class="copyCss">CSS</button>
+        <button onclick="copyCSS20()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
        <hr />
@@ -858,7 +886,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontttwob">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS21()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
       <hr />
@@ -871,7 +899,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttthreeb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS22()"  class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
        <hr />
@@ -885,7 +913,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttfourb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS23()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
       <hr />
@@ -898,7 +926,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttfiveb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS24()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -913,7 +941,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttsixb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS25()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -927,7 +955,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttsevenb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS26()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -942,7 +970,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontteightb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS27()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -956,7 +984,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fonttnineb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS28()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -971,7 +999,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontthirtyb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS29()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
       <hr />
@@ -984,7 +1012,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontthirtyoneb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS30()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -999,7 +1027,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontthirtytwob">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS31()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
       <hr />
@@ -1012,7 +1040,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontthirtythreeb">b: {{name}}</h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS32()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
 
@@ -1049,7 +1077,10 @@ font-family: 'Bungee Shade' ;
                  "font-family: 'Poller One' ;","font-family: 'GFS Didot'","font-family: 'Amita' ;","font-family: 'Wallpoet' ;",
                  "font-family: 'Bungee Shade' ;","font-family: 'Permanent Marker' ;"  
                 ];
+      
         
+        
+      //to do: add the import function and head link function.
       let y = ["@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');",
                   
               ];
