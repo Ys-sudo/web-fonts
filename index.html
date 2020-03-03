@@ -525,7 +525,7 @@ font-family: 'Bungee Shade' ;
       <h4 id="entry">
         &middot;enter some text below
       </h4>
-      <textarea type="text" disabled id="myCodeInput" rows="1" ></textarea>
+      <input type="text" value="code"  id="myCodeInput" rows="1" >
       
       <h1>
          &lg;Web Fonts
@@ -1085,7 +1085,7 @@ font-family: 'Bungee Shade' ;
               
           
         let copyText = document.getElementById("myCodeInput");
-        copyText.innerHTML = String(x[0]);
+        copyText.value = x[0];
         copyText.select();
         copyText.setSelectionRange(0, 99999);
         document.execCommand("copy");
