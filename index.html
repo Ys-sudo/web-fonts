@@ -467,6 +467,21 @@ font-family: 'Bungee Shade' ;
 
 
   }
+  
+  #myTooltip{
+    color: whitesmoke;
+    background-color: rgba(10,10,10,0.8);
+    position: fixed;
+    width:30%;
+    height:10%;
+    left:33%;
+    right:33%;
+    top:40%;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    
+  }
 
 
       </style>
@@ -483,7 +498,9 @@ font-family: 'Bungee Shade' ;
       
       <textarea id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="how is it going ?" ></textarea>
       
-      
+      <div id="myTooltip">
+        Invisible
+      </div>
       <h1>
          &lg;Web Fonts
       </h1>
@@ -988,6 +1005,14 @@ font-family: 'Bungee Shade' ;
 
 
       <script>
+        
+       
+        
+        
+        
+        
+        
+        
       
        let dark = false;
 
@@ -1020,9 +1045,9 @@ font-family: 'Bungee Shade' ;
         
         //copy the css 
         function copyCSS() {
-        
           
-        let x = ["font-family: 'Dancing Script' ;","font-family: 'Lora';","font-family: 'Pacifico';",
+          
+           let x = ["font-family: 'Dancing Script' ;","font-family: 'Lora';","font-family: 'Pacifico';",
                 "font-family: 'Abril Fatface';","font-family: 'Sigmar One' ;","font-family: 'Comfortaa' ;",
                  "font-family: 'Righteous' ;","font-family: 'Fredoka One' ;","font-family: 'Caveat' ;",
                  "font-family: 'Satisfy'","font-family: 'Kaushan Script' ;","font-family: 'Lobster Two' ;",
@@ -1034,7 +1059,26 @@ font-family: 'Bungee Shade' ;
                  "font-family: 'Poller One' ;","font-family: 'GFS Didot'","font-family: 'Amita' ;","font-family: 'Wallpoet' ;",
                  "font-family: 'Bungee Shade' ;","font-family: 'Permanent Marker' ;"  
                 ];
-        alert(x[0]);
+          alert(x[0]);
+
+        var copyText = x[0];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          ;
+        alert("Copied the text: " + copyText;
+ 
+
+        var tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="Copied: " + x[0];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+          
+        
           
         }
         
