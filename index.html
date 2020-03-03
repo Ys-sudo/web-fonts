@@ -470,16 +470,27 @@ font-family: 'Bungee Shade' ;
   
   #myTooltip{
     color: whitesmoke;
-    background-color: rgba(10,10,10,0.8);
+    background-color: rgba(10,10,10,0.95);
     position: fixed;
     width:30%;
-    height:10%;
     left:33%;
     right:33%;
     top:40%;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     display: none;
+    font-size: 15px;
+    border-radius: 30px;
+    font-family: 'Abril Fatface';
+    
+  }
+  #myInput{
+    position: fixed;
+    color: darkgray;
+    background-color:lightgray;
+    border: 0px solid white;
+    border-radius: 20px;
+    padding: 5px;
     
   }
 
@@ -501,6 +512,9 @@ font-family: 'Bungee Shade' ;
       <div id="myTooltip">
         Invisible
       </div>
+      
+      <input type="text" disabled value="0" id="myInput">
+      
       <h1>
          &lg;Web Fonts
       </h1>
@@ -1059,22 +1073,26 @@ font-family: 'Bungee Shade' ;
                  "font-family: 'Poller One' ;","font-family: 'GFS Didot'","font-family: 'Amita' ;","font-family: 'Wallpoet' ;",
                  "font-family: 'Bungee Shade' ;","font-family: 'Permanent Marker' ;"  
                 ];
-          alert(x[0]);
+          //alert(x[0]);
 
-        var copyText = x[0];
-        copyText.select();
-        copyText.setSelectionRange(0, 99999);
-        document.execCommand("copy");
-          ;
-        alert("Copied the text: " + copyText;
+          
+          
+          
+        let copyText = document.getElementById("myInput");
+        copyText.value = x[0];
+        //copyText.select();
+        //copyText.setSelectionRange(0, 99999);
+        //document.execCommand("copy");
+          
+        //alert("Copied the text: " + copyText;
  
 
-        var tooltip = document.getElementById("myTooltip");
+        let tooltip = document.getElementById("myTooltip");
  
   
         tooltip.style.display = 'block';
 
-        tooltip.innerHTML ="Copied: " + x[0];
+        tooltip.innerHTML ="copied!<br><br>" + x[0];
         setTimeout(function(){tooltip.style.display="none";},3000);  
           
           
