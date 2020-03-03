@@ -479,9 +479,9 @@ font-family: 'Bungee Shade' ;
     </head>
     <body onload="content()">
      
-      <textarea id="prevone"  align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder="Hello Darling!" rows="1"  ></textarea>
+      <textarea id="prevone"  align="left" type="text" ng-model="number" onfocusout=""  maxlength="1000"  placeholder="Hello Darling !" rows="1"  ></textarea>
       
-      <textarea id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="how is it going?" ></textarea>
+      <textarea id="prevtwo"  align="left" onfocusout="" type="text" ng-model="name" maxlength="1000" placeholder="how is it going ?" ></textarea>
       
       
       <h1>
@@ -510,7 +510,7 @@ font-family: 'Bungee Shade' ;
       </h6>
         <h2 id="fontoneb"><strong>b: {{name}}</strong></h2>
 
-        <button class="copyCss">CSS</button>
+        <button onclick="copyCSS()" class="copyCss">CSS</button>
         <button class="copyImport">@import</button>
         <button class="copyLink">head link</button>
       <hr />
@@ -1016,6 +1016,29 @@ font-family: 'Bungee Shade' ;
             return dark;
           }
 }
+        
+        
+        //copy the css 
+        function copyCSS(){
+        let x = ["font-family: 'Dancing Script' ;","font-family: 'Lora';","font-family: 'Pacifico';",
+                "font-family: 'Abril Fatface';","font-family: 'Sigmar One' ;","font-family: 'Comfortaa' ;",
+                 "font-family: 'Righteous' ;","font-family: 'Fredoka One' ;","font-family: 'Caveat' ;",
+                 "font-family: 'Satisfy'","font-family: 'Kaushan Script' ;","font-family: 'Lobster Two' ;",
+                 "font-family: 'Sacramento' ;","font-family: 'Poiret One' ;","font-family: 'Ultra' ;",
+                 "font-family: 'IBM Plex Mono' ;","font-family: 'Press Start 2P' ;","font-family: 'Luckiest Guy' ;",
+                 "font-family: 'Unica One' ; ","font-family: 'Oleo Script' ;","font-family: 'Gothic A1' ;",
+                 "font-family: 'Carter One' ; ","font-family: 'Modak';","font-family: 'Oranienbaum' ;",
+                 "font-family: 'Anonymous Pro' ;","font-family: 'Petit Formal Script' ;","font-family: 'Knewave' ;",
+                 "font-family: 'Poller One' ;","font-family: 'GFS Didot'","font-family: 'Amita' ;","font-family: 'Wallpoet' ;",
+                 "font-family: 'Bungee Shade' ;","font-family: 'Permanent Marker' ;"
+                
+                
+                ]
+        
+        }
+        
+        
+        
 
          </script>
 
