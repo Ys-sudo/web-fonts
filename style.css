@@ -1,11 +1,480 @@
-/* CSS files add styling rules to your content */
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
+      body{
+        background-color: whitesmoke;
+        color: rgb(30,30,30);
+        font-family:courier;
+        padding:5px;
+      }
+  h1{
+    font-family: 'Pacifico';
+    color: #373fff;
+  }
+  #prevone{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    color: rgb(10,10,10);
+    font-family: 'Abril Fatface';
+    border: 0px;
+    position: fixed;
+    width: 33%;
+    right:1%;
+    top:2%;
 
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
+
+  }
+  #prevtwo{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    color: rgb(10,10,10);
+    font-family: 'Abril Fatface';
+    border: 0px;
+    position: fixed;
+    width: 33%;
+    right:1%;
+    top:10%;
+
+
+  }
+  #darklight{
+    background-color: black;
+    color: white;
+    font-family: 'Abril Fatface';
+    padding: 10px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 20px;
+
+  }
+  button{
+    background-color: lightgray;
+    color: black;
+    font-family: 'Abril Fatface';
+    padding: 10px;
+    bottom: 5px;
+    right: 5px;
+    border: 0px solid red;
+    border-radius: 20px;
+
+  }
+  button:hover{
+    background-color: rgb(20,20,20);
+    color: whitesmoke;
+    font-family: 'Abril Fatface';
+    padding: 10px;
+    bottom: 5px;
+    right: 5px;
+    border: 0px solid red;
+    border-radius: 20px;
+
+  }
+
+  #fontone{
+    font-family: 'Dancing Script' ;
+
+  }
+  #fontoneb{
+
+    font-family: 'Dancing Script' ;
+
+  }
+  #fonttwo{
+    font-family: 'Lora'  ;
+
+
+  }
+  #fonttwob{
+   font-family: 'Lora'  ;
+
+
+  }
+  #fontthree{
+    font-family: 'Pacifico';
+
+  }
+  #fontthreeb{
+    font-family: 'Pacifico' ;
+
+  }
+  #fontfour{
+    font-family: 'Abril Fatface';
+
+  }
+  #fontfourb{
+    font-family: 'Abril Fatface';
+
+  }
+  #fontfive{
+    font-family: 'Sigmar One' ;
+
+
+  }
+  #fontfiveb{
+    font-family: 'Sigmar One' ;
+
+
+  }
+  #fontsix{
+    font-family: 'Comfortaa' ;
+
+  }
+  #fontsixb{
+    font-family: 'Comfortaa';
+
+  }
+  #fontseven{
+    font-family: 'Righteous' ;
+
+
+  }
+  #fontsevenb{
+    font-family: 'Righteous' ;
+
+
+  }
+  #fonteight{
+    font-family: 'Fredoka One' ;
+
+
+  }
+  #fonteightb{
+    font-family: 'Fredoka One' ;
+
+  }
+
+  #fontnine{
+   font-family: 'Caveat' ;
+
+
+  }
+  #fontnineb{
+    font-family: 'Caveat' ;
+
+
+  }
+  #fontten{
+    font-family: 'Satisfy' ;
+
+
+  }
+  #fonttenb{
+    font-family: 'Satisfy' ;
+
+
+  }
+  #fonteleven{
+    font-family: 'Kaushan Script' ;
+
+
+  }
+  #fontelevenb{
+    font-family: 'Kaushan Script';
+
+
+  }
+  #fonttwelve{
+    font-family: 'Lobster Two' ;
+
+
+  }
+  #fonttwelveb{
+   font-family: 'Lobster Two' ;
+
+
+  }
+  #fontthirteen{
+    font-family: 'Sacramento' ;
+
+
+  }
+  #fontthirteenb{
+    font-family: 'Sacramento' ;
+
+
+  }
+  #fontfourteen{
+    font-family: 'Poiret One' ;
+
+  }
+  #fontfourteenb{
+   font-family: 'Poiret One';
+
+
+  }
+  #fontfifteen{
+    font-family: 'Ultra' ;
+
+
+  }
+  #fontfifteenb{
+    font-family: 'Ultra' ;
+
+  }
+  #fontsixteen{
+    font-family: 'IBM Plex Mono' ;
+
+
+  }
+  #fontsixteenb{
+    font-family: 'IBM Plex Mono' ;
+
+
+  }
+  #fontseventeen{
+    font-family: 'Press Start 2P' ;
+
+
+  }
+
+  #fontseventeenb{
+   font-family: 'Press Start 2P' ;
+
+
+  }
+  #fonteightteen{
+    font-family: 'Luckiest Guy' ;
+
+
+
+  }
+
+  #fonteightteenb{
+    font-family: 'Luckiest Guy' ;
+
+
+
+  }
+  #fontnineteen{
+  font-family: 'Unica One' ;
+
+
+  }
+
+  #fontnineteenb{
+   font-family: 'Unica One' ;
+
+
+  }
+  #fontt{
+    font-family: 'Oleo Script' ;
+
+
+  }
+
+  #fonttb{
+    font-family: 'Oleo Script' ;
+
+
+  }
+  #fonttone{
+    font-family: 'Gothic A1' ;
+
+
+  }
+
+  #fonttoneb{
+    font-family: 'Gothic A1' ;
+
+
+  }
+  #fontttwo{
+    font-family: 'Carter One' ;
+
+
+  }
+
+  #fontttwob{
+    font-family: 'Carter One' ;
+
+
+  }
+  #fonttthree{
+    font-family: 'Modak', ;
+
+
+  }
+
+  #fonttthreeeb{
+    font-family: 'Modak', ;
+
+
+  }
+  #fonttfour{
+    font-family: 'Oranienbaum' ;
+
+
+  }
+
+  #fonttfourb{
+    font-family: 'Oranienbaum' ;
+
+
+  }
+  #fonttfive{
+    font-family: 'Anonymous Pro' ;
+
+
+  }
+
+  #fonttfiveb{
+    font-family: 'Anonymous Pro' ;
+
+
+  }
+  #fonttsix{
+    font-family: 'Petit Formal Script' ;
+
+
+  }
+
+  #fonttsixb{
+    font-family: 'Petit Formal Script' ;
+
+
+  }
+  #fonttseven{
+    font-family: 'Knewave' ;
+
+
+  }
+
+  #fonttsevenb{
+    font-family: 'Knewave' ;
+
+
+  }
+  #fontteight{
+    font-family: 'Poller One' ;
+
+
+  }
+
+  #fontteightb{
+    font-family: 'Poller One' ;
+
+
+  }
+  #fonttnine{
+    font-family: 'GFS Didot' ;
+
+
+  }
+
+  #fonttnineb{
+    font-family: 'GFS Didot' ;
+
+  }
+  #fontthirty{
+    font-family: 'Amita' ;
+
+
+  }
+
+  #fontthirtyb{
+    font-family: 'Amita' ;
+
+
+  }
+  #fontthirtyone{
+    font-family: 'Wallpoet' ;
+
+
+  }
+
+  #fontthirtyoneb{
+    font-family: 'Wallpoet' ;
+
+
+  }
+  #fontthirtytwo{
+font-family: 'Bungee Shade' ;
+
+  }
+
+  #fontthirtytwob{
+font-family: 'Bungee Shade' ;
+
+  }
+ #fontthirtythree{
+   font-family: 'Permanent Marker' ;
+
+
+  }
+
+  #fontthirtythreeb{
+   font-family: 'Permanent Marker' ;
+
+
+  }
+  
+  #myTooltip{
+    color: whitesmoke;
+    background-color: rgba(10,10,10,0.95);
+    position: fixed;
+    left: 20%;
+    right: 20%;
+   
+    top:40%;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    font-size: 10px;
+    border-radius: 30px;
+    font-family: 'Abril Fatface';
+    
+  }
+  #myCodeInput{
+    position: fixed;
+    top: 1%;
+    color: rgb(20,20,20);
+    background-color:lightgray;
+    border: 0px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: 'Abril Fatface';
+    width: 40%;
+    
+  }
+  #entry{
+    position: fixed;
+    color: black;
+    font-size: 10px;
+    right: 3%;
+    top: -5px;
+  }
+
+  #popup{
+    position: fixed;
+    background: rgba(50,50,50,0.9);
+    color: lightgray;
+    padding: 30px;
+    width: 50%;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+    border-radius: 20px;
+    font-family: 'Abril Fatface';
+    font-size: 12px;
+  }
+  #popup:hover{
+    
+    color: white;
+    
+  }
+  #close{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 15px;
+    
+  }
+  #close:hover{
+    color: black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50px;
+  }
