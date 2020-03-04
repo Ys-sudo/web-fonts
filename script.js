@@ -42,22 +42,22 @@
 
       let a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24,a25,a26,a27,a28,a29,a30,a31,a32,a33;
 
-      a1 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a1 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"+"&quot;"; 
       a2 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a3 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a4 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a5 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a6 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a7 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a8 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a9 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a10 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a11 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a12 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a13 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a14 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
-      a15 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a16 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a3 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Pacifico&display=swap"+"&quot;"; 
+      a4 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap"+"&quot;";
+      a5 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Sigmar+One&display=swap"+"&quot;"; 
+      a6 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Comfortaa&display=swap"+"&quot;";
+      a7 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Righteous&display=swap"+"&quot;"; 
+      a8 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"+"&quot;";
+      a9 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Caveat&display=swap"+"&quot;"; 
+      a10 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Satisfy&display=swap"+"&quot;";
+      a11 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"+"&quot;"; 
+      a12 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lobster+Two&display=swap"+"&quot;";
+      a13 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Sacramento&display=swap"+"&quot;"; 
+      a14 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Poiret+One&display=swap"+"&quot;";
+      a15 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Ultra&display=swap"+"&quot;"; 
+      a16 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap"+"&quot;";
       a17 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
       a18 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
       a19 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
@@ -82,9 +82,9 @@
   
       let z = [
         
-        a1+" "+rel,a2+" "+rel,a3+" "+rel,a4+" "+rel,a5+" "+rel,a6+" "+rel,a7+" "+rel,a8+" "+rel,a9+" "+rel,a10+rel,a11+rel,
-        a12+rel,a13+rel,a14+rel,a15+rel,a16+rel,a17+rel,a18+rel,a19+rel,a20+rel,a21+rel,a22+rel,
-        a23+rel,a24+rel,a25+rel,a26+rel,a27+rel,a28+rel,a29+rel,a30+rel,a31+rel,a32+rel,a33+rel
+        a1+" "+rel,a2+" "+rel,a3+" "+rel,a4+" "+rel,a5+" "+rel,a6+" "+rel,a7+" "+rel,a8+" "+rel,a9+" "+rel,a10+" "+rel,a11+" "+rel,
+        a12+" "+rel,a13+" "+rel,a14+" "+rel,a15+" "+rel,a16+" "+rel,a17+" "+rel,a18+" "+rel,a19+" "+rel,a20+" "+rel,a21+" "+rel,a22+" "+rel,
+        a23+" "+rel,a24+" "+rel,a25+" "+rel,a26+" "+rel,a27+" "+rel,a28+" "+rel,a29+" "+rel,a30+" "+rel,a31+" "+" "+rel,a32+" "+rel,a33+" "+rel
         
       ];
 
