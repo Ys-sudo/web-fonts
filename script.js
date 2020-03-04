@@ -63,17 +63,28 @@
       a19 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
       a20 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
       a21 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      a2 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a22 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a23 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a24 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a25 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a26 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a27 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a28 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a29 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a30 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a31 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a32 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a33 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      
 
       let rel="rel="+"&quot;"+"stylesheet"+"&quot;"+"&gt;";
 
   
       let z = [
         
-        a1+rel,"  "
-        
-        
-        
+        a1+rel,a2+rel,a3+rel,a4+rel,a5+rel,a6+rel,a7+rel,a8+rel,a9+rel,a10+rel,a11+rel,
+        a12+rel,a13+rel,a14+rel,a15+rel,a16+rel,a17+rel,a18+rel,a19+rel,a20+rel,a21+rel,a22+rel,
+        a23+rel,a24+rel,a25+rel,a26+rel,a27+rel,a28+rel,a29+rel,a30+rel,a31+rel,a32+rel,a33+rel
         
       ];
 
@@ -1623,14 +1634,36 @@ function headlink0(){
           
 
         let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
  
   
         tooltip.style.display = 'block';
 
         tooltip.innerHTML ="copy manually please!<br><br>" + z[0];
         
+  contener.innerHTML = z[0];
   
-        setTimeout(function(){tooltip.style.display="none";},5000);  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+
+unction headlink1(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[1];
+        
+  contener.innerHTML = z[1];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
           
   
 }
