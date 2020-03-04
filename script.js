@@ -42,8 +42,8 @@
 
       let a1;
 
-      a1 = "&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
-      let rel="&quot;"+"stylesheet"+"&quot;";
+      a1 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      let rel="rel="+"&quot;"+"stylesheet"+"&quot;"+"&gt;";
 
   
       let z = [
@@ -1590,6 +1590,28 @@ function importcss32(){
         tooltip.style.display = 'block';
 
         tooltip.innerHTML ="copied!<br><br>" + y[32];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+//Functions to handle head link:
+
+function headlink0(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + z[0];
+        tooltip.innerHTML = z[0];
+        tooltip.select(tooltip);
+        tooltip.setSelectionRange(0, 99999);
+  
+        document.execCommand("copy");
+  
         setTimeout(function(){tooltip.style.display="none";},3000);  
           
   
