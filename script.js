@@ -40,9 +40,31 @@
 
         ];
 
-      let a1;
+      let a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16,a17,a18,a19,a20,a21,a22,a23,a24,a25,a26,a27,a28,a29,a30,a31,a32,a33;
 
       a1 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a2 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a3 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a4 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a5 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a6 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a7 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a8 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a9 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a10 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a11 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a12 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a13 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a14 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a15 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a16 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a17 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a18 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a19 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a20 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+      a21 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      a2 = "&lt;"+"link href="+"&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;";
+
       let rel="rel="+"&quot;"+"stylesheet"+"&quot;"+"&gt;";
 
   
@@ -83,10 +105,10 @@
             document.getElementById("prevtwo").style.color="white";
             document.getElementById("myCodeInput").style.background="rgb(30,30,30)";
             document.getElementById("myCodeInput").style.color="white";
-            document.getElementById("popup").style.background="lightgray";
+            document.getElementById("popup").style.background="white";
             document.getElementById("popup").style.color="black";
-            
-            
+            document.getElementById("myTooltip").style.color ="black";
+            document.getElementById("myTooltip").style.background ="white";
 
             
             dark = true;
@@ -1605,14 +1627,10 @@ function headlink0(){
   
         tooltip.style.display = 'block';
 
-        tooltip.innerHTML ="copied!<br><br>" + z[0];
-        tooltip.innerHTML = z[0];
-        tooltip.select(tooltip);
-        tooltip.setSelectionRange(0, 99999);
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[0];
+        
   
-        document.execCommand("copy");
-  
-        setTimeout(function(){tooltip.style.display="none";},3000);  
+        setTimeout(function(){tooltip.style.display="none";},5000);  
           
   
 }
