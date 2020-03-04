@@ -20,10 +20,25 @@
         
         
       //to do: add the import function and head link function.
-      let y = ["@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');","@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');","@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');"
-                  
-              ];
-        
+      let y = ["@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');","@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');","@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');","@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');","@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');","@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');","@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');","@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');","@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');","@import url('https://fonts.googleapis.com/css?family=Unica+One&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');","@import url('https://fonts.googleapis.com/css?family=Gothic+A1&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');","@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Oranienbaum&display=swap');","@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap');","@import url('https://fonts.googleapis.com/css?family=Knewave&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Poller+One&display=swap');","@import url('https://fonts.googleapis.com/css?family=GFS+Didot&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Amita&display=swap');","@import url('https://fonts.googleapis.com/css?family=Wallpoet&display=swap');"
+      ,"@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');","@import url('https://fonts.googleapis.com/css?family=Permament+Marker&display=swap');"
+
+        ];
       
       function closes(){
            document.getElementById("popup").style.display ="none";
@@ -898,6 +913,661 @@ function importcss0(){
         tooltip.style.display = 'block';
 
         tooltip.innerHTML ="copied!<br><br>" + y[0];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss1(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[1];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[1];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss2(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[2];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[2];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss3(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[3];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[3];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss4(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[4];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[4];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss5(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[5];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[5];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss6(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[6];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[6];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss7(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[7];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[7];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss8(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[8];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[8];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss9(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[9];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[9];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss10(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[10];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[10];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss11(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[11];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[11];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss12(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[12];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[12];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss13(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[13];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[13];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss14(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[14];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[14];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss15(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[15];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[15];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss16(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[16];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[16];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss17(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[17];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[17];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss18(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[18];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[18];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss19(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[19];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[19];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss20(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[20];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[20];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss21(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[21];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[21];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss22(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[22];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[22];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss23(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[23];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[23];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss24(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[24];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[24];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss25(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[25];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[25];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss26(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[26];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[26];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss27(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[27];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[27];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss28(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[28];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[28];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss29(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[29];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[29];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+
+function importcss30(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[30];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[30];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss31(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[31];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[31];
+        setTimeout(function(){tooltip.style.display="none";},3000);  
+          
+  
+}
+function importcss32(){
+  let copyText = document.getElementById("myCodeInput");
+        copyText.value = y[32];
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        document.execCommand("copy");
+          
+        
+ 
+
+        let tooltip = document.getElementById("myTooltip");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copied!<br><br>" + y[32];
         setTimeout(function(){tooltip.style.display="none";},3000);  
           
   
