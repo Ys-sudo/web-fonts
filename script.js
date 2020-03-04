@@ -82,7 +82,7 @@
   
       let z = [
         
-        a1+rel,a2+rel,a3+rel,a4+rel,a5+rel,a6+rel,a7+rel,a8+rel,a9+rel,a10+rel,a11+rel,
+        a1+" "+rel,a2+" "+rel,a3+" "+rel,a4+" "+rel,a5+" "+rel,a6+" "+rel,a7+" "+rel,a8+" "+rel,a9+" "+rel,a10+rel,a11+rel,
         a12+rel,a13+rel,a14+rel,a15+rel,a16+rel,a17+rel,a18+rel,a19+rel,a20+rel,a21+rel,a22+rel,
         a23+rel,a24+rel,a25+rel,a26+rel,a27+rel,a28+rel,a29+rel,a30+rel,a31+rel,a32+rel,a33+rel
         
@@ -140,7 +140,9 @@
             document.getElementById("myCodeInput").style.color="gray";
             document.getElementById("popup").style.background="rgb(30,30,30)";
             document.getElementById("popup").style.color="white";
-            
+            document.getElementById("myTooltip").style.color ="white";
+            document.getElementById("myTooltip").style.background ="black";
+
             
             document.body.style.background = "whitesmoke";
             document.body.style.color = "rgb(30,30,03)";
@@ -1649,7 +1651,7 @@ function headlink0(){
   
 }
 
-unction headlink1(){
+function headlink1(){
           
 
         let tooltip = document.getElementById("myTooltip");
@@ -1661,6 +1663,564 @@ unction headlink1(){
         tooltip.innerHTML ="copy manually please!<br><br>" + z[1];
         
   contener.innerHTML = z[1];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink2(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[2];
+        
+  contener.innerHTML = z[2];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink3(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[3];
+        
+  contener.innerHTML = z[3];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink4(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[4];
+        
+  contener.innerHTML = z[4];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink5(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[5];
+        
+  contener.innerHTML = z[5];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink6(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[6];
+        
+  contener.innerHTML = z[6];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink7(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[7];
+        
+  contener.innerHTML = z[7];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink8(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[8];
+        
+  contener.innerHTML = z[8];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink9(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[9];
+        
+  contener.innerHTML = z[9];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink10(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[10];
+        
+  contener.innerHTML = z[10];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink11(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[11];
+        
+  contener.innerHTML = z[11];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink12(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[12];
+        
+  contener.innerHTML = z[12];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink13(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[13];
+        
+  contener.innerHTML = z[13];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink14(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[14];
+        
+  contener.innerHTML = z[14];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink15(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[15];
+        
+  contener.innerHTML = z[15];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink16(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[16];
+        
+  contener.innerHTML = z[16];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink17(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[17];
+        
+  contener.innerHTML = z[17];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink18(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[18];
+        
+  contener.innerHTML = z[18];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink19(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[19];
+        
+  contener.innerHTML = z[19];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink20(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[20];
+        
+  contener.innerHTML = z[20];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink21(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[21];
+        
+  contener.innerHTML = z[21];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink22(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[22];
+        
+  contener.innerHTML = z[22];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink23(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[23];
+        
+  contener.innerHTML = z[23];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink24(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[24];
+        
+  contener.innerHTML = z[24];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink25(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[25];
+        
+  contener.innerHTML = z[25];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink26(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[26];
+        
+  contener.innerHTML = z[26];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink27(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[27];
+        
+  contener.innerHTML = z[27];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink28(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[28];
+        
+  contener.innerHTML = z[28];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink29(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[29];
+        
+  contener.innerHTML = z[29];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink30(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[30];
+        
+  contener.innerHTML = z[30];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink31(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[31];
+        
+  contener.innerHTML = z[31];
+  
+        
+        setTimeout(function(){tooltip.style.display="none";},7000);  
+          
+  
+}
+function headlink32(){
+          
+
+        let tooltip = document.getElementById("myTooltip");
+        let contener = document.getElementById("prevtwo");
+ 
+  
+        tooltip.style.display = 'block';
+
+        tooltip.innerHTML ="copy manually please!<br><br>" + z[32];
+        
+  contener.innerHTML = z[32];
   
         
         setTimeout(function(){tooltip.style.display="none";},7000);  
