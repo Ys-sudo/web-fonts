@@ -19,7 +19,7 @@
       
         
         
-      //to do: add the import function and head link function.
+      //to do: αδδ head link function.
       let y = ["@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');","@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');"
       ,"@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');"
       ,"@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');","@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');"
@@ -39,6 +39,24 @@
       ,"@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');","@import url('https://fonts.googleapis.com/css?family=Permament+Marker&display=swap');"
 
         ];
+
+      let a1;
+
+      a1 = "&quot;"+"https://fonts.googleapis.com/css?family=Lora&display=swap"+"&quot;"; 
+      let rel="&quot;"+"stylesheet"+"&quot;";
+
+  
+      let z = [
+        
+        a1+rel,"  "
+        
+        
+        
+        
+      ];
+
+
+      
       
       function closes(){
            document.getElementById("popup").style.display ="none";
@@ -65,6 +83,8 @@
             document.getElementById("prevtwo").style.color="white";
             document.getElementById("myCodeInput").style.background="rgb(30,30,30)";
             document.getElementById("myCodeInput").style.color="white";
+            document.getElementById("popup").style.background="lightgray";
+            document.getElementById("popup").style.color="black";
             
             
 
@@ -85,6 +105,8 @@
             document.getElementById("prevtwo").style.color="darkgray";
             document.getElementById("myCodeInput").style.background="lightgray";
             document.getElementById("myCodeInput").style.color="gray";
+            document.getElementById("popup").style.background="rgb(30,30,30)";
+            document.getElementById("popup").style.color="white";
             
             
             document.body.style.background = "whitesmoke";

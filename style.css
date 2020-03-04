@@ -111,7 +111,7 @@
 
   #popup{
     position: fixed;
-    background: rgba(50,50,50,0.9);
+    background: rgb(30,30,30);
     color: lightgray;
     padding: 30px;
     width: 50%;
